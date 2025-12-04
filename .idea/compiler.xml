@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discoveryserver" />
+        <module name="notificationservice" />
         <module name="orderservice" />
       </profile>
       <profile name="Annotation profile for productservice" enabled="true">
@@ -28,6 +29,7 @@
       <module name="discoveryserver" options="-parameters" />
       <module name="gatewayservice" options="-parameters" />
       <module name="inventoryservice" options="-parameters" />
+      <module name="notificationservice" options="-parameters" />
       <module name="orderservice" options="-parameters" />
       <module name="productservice" options="-parameters" />
     </option>
